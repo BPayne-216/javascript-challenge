@@ -49,7 +49,7 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: rgb(10, 241, 99);
 }
 
 /* Adding styles to the aside and filter form */
@@ -69,7 +69,7 @@ select {
   display: block;
   width: 100%;
   padding: 8px;
-  color: #8e979f;
+  color: #5cbb1c;
   outline: none;
 }
 
