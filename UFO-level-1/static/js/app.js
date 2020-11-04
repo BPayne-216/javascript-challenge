@@ -16,22 +16,19 @@ filterButton.on("click", function() {
     console.log(dateTime);
     var filteredData = tableData.filter(record => record.datetime === dateTime);
     console.log(filteredData)
-      
+    //forEach to filter the table  
     filteredData.forEach(appendTable); 
 });
 
 function appendTable(report) {
+    //Select the list element by class name
     var tbody = d3.select("tbody");
-
+     //append 'tr' element
     var row = tbody.append("tr");
 
     Object.entries(report).forEach(([key, value]) => {
         var cell = row.append("td");
         cell.text(value);
-
-        if (key === "comments") {
-            cell.attr("class", "record-comments")
-        }
     });
 }
 

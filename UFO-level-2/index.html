@@ -36,12 +36,35 @@
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date <small>(no leading zeros)</small></label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="date">Use filters <small>or keep BLANK</small></label>
+                        <!-- below was for level I -->
+                        <!-- <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        -->
+                        <!-- below section added for level II -->
+                        <label for="date">Date:</label>
+                        <select id="selDate" onchange="updateFilteredData('datetime', this.value)">
+                          <!-- Populate set of options using javascript -->
+                        </select>
+                        <label for="date">City:</label>
+                        <select id="selCity" onchange="updateFilteredData('city', this.value)">
+                          <!-- Populate set of options using javascript -->
+                        </select>
+                        <label for="state">State:</label>
+                        <select id="selState" onchange="updateFilteredData('state', this.value)">
+                          <!-- Populate set of options using javascript -->
+                        </select>
+                        <label for="country">Country:</label>
+                        <select id="selCountry" onchange="updateFilteredData('country', this.value)">
+                          <!-- Populate set of options using javascript -->
+                        </select>
+                        <label for="shape">Shape:</label>
+                        <select id="selShape" onchange="updateFilteredData('shape', this.value)">
+                          <!-- Populate set of options using javascript --> 
+                        </select>  
                       </li>
                     </ul>
                   </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
             </div>
