@@ -1,11 +1,13 @@
-# web-scraping-challenge
-Web Scraping Homework - Mission to Mars
-![image of HW](https://github.com/BPayne-216/web-scraping-challenge/blob/master/Missions_to_Mars/templates/cover_mars.png)
+# javascript-challenge
+Javascript Homework - Javascript and DOM Manipulation
+![image of HW](https://github.com/BPayne-216/javascript-challenge/blob/master/UFO-level-2/static/images/nasa.jpg)
 Intro to this project
 
-This project utilitizes python, beautiful soup, splinter, Flask, pymongo to scrape various space-related websites.  HTML and bootstrap were used to create and index of the scraped items: text, data table, pictures.
+This project used javascript to query a given field (table) of UFO data.  HTML, css, andbootstrap were used to create the website.
 
-The motivation of this project is to utilize various web scraping applications, store the scraped information, and then review it on a separate web (HTML) document.
+The motivation of this project is to create an interactive website that allows the visitor to the site to query the table information based on: date, city, state, country, shape.
+Level I: this allows visitor to query by typing in the date and retrieving all table elements that match that date.
+Level II: this is an interactive filter that allows the visitor to query the table elements based on (5) elements: date/time, city, state, country, and shape.  A button creates the query and any combination of the (5) filters may be utilized.
 
 Build status: The first part of the project utilized Beautiful Soup within python to review the data to be pulled from the (4) websites below: 
 https://mars.nasa.gov/news,
@@ -14,7 +16,7 @@ http://space-facts.com/mars,
 https://astrogeology.usgs.gov
 
 Technology/Framework (In order):  
-Python (pandas), chromedriver, Beautiful Soup, splinter, pymongo, Flask.  HTML, bootstrap.
+VS Code Editor: HTML (css, bootstrap).  Javascript.
 
 Features/Files:
 mission_to_mars.ipynb is the initial python document that connects to the individual websites listed and aggregates the reviewed data (text, table, pictures) to be stored.  Lists and dictionaries were used.
