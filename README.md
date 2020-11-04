@@ -1,6 +1,8 @@
 # javascript-challenge
 Javascript Homework - Javascript and DOM Manipulation
 ![image of HW](https://github.com/BPayne-216/javascript-challenge/blob/master/docs/static/images/nasa.jpg)
+
+
 Intro to this project
 
 https://bpayne-216.github.io/javascript-challenge/
