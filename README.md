@@ -1,6 +1,6 @@
 # javascript-challenge
 Javascript Homework - Javascript and DOM Manipulation
-![image of HW](https://github.com/BPayne-216/javascript-challenge/blob/master/UFO-level-2/static/images/nasa.jpg)
+![image of HW](https://github.com/BPayne-216/javascript-challenge/blob/master/docs/static/images/nasa.jpg)
 Intro to this project
 
 This project used javascript to query a given field (table) of UFO data.  HTML, css, andbootstrap were used to create the website.
