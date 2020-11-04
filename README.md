@@ -9,11 +9,7 @@ The motivation of this project is to create an interactive website that allows t
 Level I: this allows visitor to query by typing in the date and retrieving all table elements that match that date.
 Level II: this is an interactive filter that allows the visitor to query the table elements based on (5) elements: date/time, city, state, country, and shape.  A button creates the query and any combination of the (5) filters may be utilized.
 
-Build status: The first part of the project utilized Beautiful Soup within python to review the data to be pulled from the (4) websites below: 
-https://mars.nasa.gov/news,
-https://www.jpl.nasa.gov,
-http://space-facts.com/mars,
-https://astrogeology.usgs.gov
+Build status: the initial project was given the data (array), html, starter javascript code.  The main objective was to create filters based on the data that allowed for queries based on date/time and multiple filters.
 
 Technology/Framework (In order):  
 VS Code Editor: HTML (css, bootstrap).  Javascript.
