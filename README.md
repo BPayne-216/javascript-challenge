@@ -17,7 +17,7 @@ Level II: this is an interactive filter that allows the visitor to query the tab
 Build status: the initial project was given the data (array), html, starter javascript code.  The main objective was to create filters based on the data that allowed for queries based on date/time and multiple filters.
 
 Technology/Framework (In order):  
-VS Code Editor: HTML (css, bootstrap).  Javascript.
+VS Code Editor: HTML (css, bootstrap).  Javascript. Within Javascript: d3, filters, forEach, buttons were used. 
 
 Features/Files:
 UFO-level-1 Folder: this contains level 1 Automatic Table and Date Search.  The HTML file (when run on browser) allows the date/time input to filter/query the entire UFO data.
