@@ -6,6 +6,8 @@ Javascript Homework - Javascript and DOM Manipulation
 Intro to this project
 
 https://bpayne-216.github.io/javascript-challenge/
+
+
 This project used javascript to query a given field (table) of UFO data.  HTML, css, andbootstrap were used to create the website.
 
 The motivation of this project is to create an interactive website that allows the visitor to the site to query the table information based on: date, city, state, country, shape.
